@@ -23,7 +23,7 @@
 
 					<ul>
 						<li v-for="item in menus" v-if="item.type != 'custom'">
-							 <router-link :to="{ name: 'page', params: { name: getUrlName( item.url ) }}"> {{ item.title }} </router-link>
+							<router-link :to="{ name: 'page', params: { name: getUrlName( item.url ) }}"> {{ item.title }} </router-link>
 						</li>
 
 					</ul>
