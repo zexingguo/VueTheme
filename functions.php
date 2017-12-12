@@ -105,7 +105,7 @@ function rt_extend_rest_post_response() {
 			'get_callback'    => 'get_image_src',
 			'update_callback' => null,
 			'schema'          => null,
-			 )
+			)
 	);
 
 	register_rest_field( 'post',
@@ -114,7 +114,7 @@ function rt_extend_rest_post_response() {
 			'get_callback'    => 'rt_get_cat_name',
 			'update_callback' => null,
 			'schema'          => null,
-			 )
+			)
 	);
 
 	register_rest_field( 'post',
